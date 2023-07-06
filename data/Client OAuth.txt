@@ -1,2 +1,0 @@
-ID client : 982571866687-ingmgeu1cmfhtp1ughkp1a8l5ouh7g2a.apps.googleusercontent.com
-Code secret du client : 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
