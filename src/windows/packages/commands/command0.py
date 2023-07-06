@@ -7,10 +7,6 @@ def display_commands():
         {
             'command': 'about',
             'description': 'Displays the program information.'
-        },
-        {
-            'command': 'license',
-            'description' : 'Displays the terms and conditions of the license used for the project.'
         }
     ]
 
