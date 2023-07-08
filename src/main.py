@@ -1,17 +1,19 @@
 from datetime import datetime
 import os
 
-def write_to_file(content, file_path):
-    with open(file_path, 'a') as file:
-        file.write(str(content))
+def run_file(file_path):
+    with open(file_path, 'r') as file:
+        code = compile(file.read(), os.path.basename(file_path), 'exec')
+    exec(code)
 
-def start_file():
-    with open('windows/__init__.py', 'r') as file:
-        execute = compile(file.read(), '__init__.py', 'exec')
-        exec(execute)
+def write_file(logs_path, content):
+    with open(logs_path, 'a') as file:
+        file.write(content)
 
 if __name__ == '__main__':
-    file_path = 'windows/cache/temps/logs.txt'
+    logs_path = 'windows/cache/temps/logs.txt'
     content = f'{datetime.now()} : start {os.path.abspath(__file__)}\n'
-    write_to_file(content, file_path)
-    start_file()
+    write_file(logs_path, content)
+
+    file_path = 'windows/__init__.py'
+    run_file(file_path)
