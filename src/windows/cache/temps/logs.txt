@@ -38,3 +38,36 @@
 2023-07-10 08:10:29.521427 : Result: The command is executed successfully!
 2023-07-10 08:10:32.730938 : Command: about
 2023-07-10 08:10:32.730938 : Result: The command is executed successfully!
+2023-07-10 08:17:00.758604 : start E:\project_winware\src\main.py
+2023-07-10 08:17:04.616128 : Command: credits
+2023-07-10 08:17:04.616128 : Result: The command is executed successfully!
+2023-07-10 08:18:12.534095 : start E:\project_winware\src\main.py
+2023-07-10 08:18:17.226484 : Command: help
+2023-07-10 08:18:17.226484 : Result: The command is executed successfully!
+2023-07-10 08:19:00.850091 : start E:\project_winware\src\main.py
+2023-07-10 08:19:27.196514 : start E:\project_winware\src\main.py
+2023-07-10 08:20:23.787289 : start E:\project_winware\src\main.py
+2023-07-10 08:20:31.049014 : Command: start
+2023-07-10 08:20:31.049014 : Result: The command is executed successfully!
+2023-07-10 08:41:01.566944 : start E:\project_winware\src\main.py
+2023-07-10 08:41:22.774037 : start E:\project_winware\src\main.py
+2023-07-10 08:41:57.902551 : start E:\project_winware\src\main.py
+2023-07-10 08:42:13.806824 : start E:\project_winware\src\main.py
+2023-07-10 08:43:29.459318 : start E:\project_winware\src\main.py
+2023-07-10 08:46:54.065890 : start E:\project_winware\src\main.py
+2023-07-10 08:46:58.288322 : Command: config
+2023-07-10 08:46:58.288322 : Result: The command is executed successfully!
+2023-07-10 08:48:55.845040 : start E:\project_winware\src\main.py
+2023-07-10 09:10:56.698529 : start E:\project_winware\src\main.py
+2023-07-10 09:11:04.629307 : Command: config
+2023-07-10 09:11:04.629307 : Result: The command is executed successfully!
+2023-07-10 09:11:33.101753 : start E:\project_winware\src\main.py
+2023-07-10 09:11:44.414739 : Command: config
+2023-07-10 09:11:44.414739 : Result: The command is executed successfully!
+2023-07-10 09:14:52.705537 : start E:\project_winware\src\main.py
+2023-07-10 09:14:54.440181 : Command: start
+2023-07-10 09:14:54.440181 : Result: Error code 2: The configuration file was not found.
+2023-07-10 09:15:13.840144 : Command: config
+2023-07-10 09:15:13.840144 : Result: The command is executed successfully!
+2023-07-10 09:15:18.271973 : Command: start
+2023-07-10 09:15:18.271973 : Result: The command is executed successfully!

@@ -2,16 +2,7 @@ import customtkinter
 
 class Window:
     def window_configuration(self, window):
-        customtkinter.set_appearance_mode('dark')
-        customtkinter.set_default_color_theme('dark-blue')
-
-        window.title('WinWARE')
-        window.geometry('900x500')
-
-        window.minsize(width=900, height=500)
-        window.maxsize(width=900, height=500)
-
-        window.config(background='#111111')
+        pass
 
     def window_interface(self, window):
         pass

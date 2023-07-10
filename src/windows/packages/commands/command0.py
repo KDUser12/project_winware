@@ -7,6 +7,18 @@ def display_commands():
         {
             'command': 'about',
             'description': 'Displays the program information.'
+        },
+        {
+            'command': 'credits',
+            'description': 'Displaying the full list of software developers.'
+        },
+        {
+            'command': 'start',
+            'description': 'Launch the WinWRAE application.'
+        },
+        {
+            'command': 'config',
+            'description': 'WinWARE application configuration'
         }
     ]
 
