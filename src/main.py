@@ -1,6 +1,7 @@
 from datetime import datetime
 import configparser
 import customtkinter
+from PIL import Image
 import os
 
 def run_file(file_path):
