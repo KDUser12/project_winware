@@ -10,9 +10,10 @@ def display_commands():
         }
     ]
 
-    print('Commands:\n')
+    print('\nCommands:\n')
     for cmd in commands:
         print(f"- {cmd['command']} : {cmd['description']}")
+    print('')
 
 if __name__ == '__main__':
     display_commands()

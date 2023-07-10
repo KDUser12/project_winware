@@ -1,1 +1,40 @@
 2023-07-08 18:16:37.282852 : start E:\project_winware\src\main.py
+2023-07-10 07:53:38.523002 : start E:\project_winware\src\main.py
+2023-07-10 07:55:10.179073 : start E:\project_winware\src\main.py
+2023-07-10 07:56:03.357262 : Command: salut
+2023-07-10 07:56:03.357262 : Result: Error code 1: The command you entered does not exist
+2023-07-10 07:56:13.704981 : Command: help
+2023-07-10 07:56:13.704981 : Result: The command is executed successfully!
+2023-07-10 07:58:16.194589 : start E:\project_winware\src\main.py
+2023-07-10 07:58:18.274845 : Command: dfs
+2023-07-10 07:58:18.274845 : Result: Error code 1: The command you entered does not exist
+2023-07-10 07:58:22.169869 : Command: help
+2023-07-10 07:58:22.169869 : Result: The command is executed successfully!
+2023-07-10 07:59:13.554312 : start E:\project_winware\src\main.py
+2023-07-10 07:59:16.032331 : Command: hgf
+2023-07-10 07:59:16.032331 : Result: Error code 1: The command you entered does not exist
+2023-07-10 07:59:33.098353 : start E:\project_winware\src\main.py
+2023-07-10 07:59:34.921494 : Command: ,n
+2023-07-10 07:59:34.921494 : Result: Error code 1: The command you entered does not exist
+2023-07-10 07:59:36.259229 : Command: hg
+2023-07-10 07:59:36.259229 : Result: Error code 1: The command you entered does not exist
+2023-07-10 07:59:39.699903 : Command: help
+2023-07-10 07:59:39.699903 : Result: The command is executed successfully!
+2023-07-10 08:02:58.842849 : start E:\project_winware\src\main.py
+2023-07-10 08:03:00.974612 : Command: help
+2023-07-10 08:03:00.974612 : Result: The command is executed successfully!
+2023-07-10 08:03:01.963429 : Command: dsq
+2023-07-10 08:03:01.963429 : Result: Error code 1: The command you entered does not exist
+2023-07-10 08:03:52.122859 : start E:\project_winware\src\main.py
+2023-07-10 08:03:55.364313 : Command: dsq
+2023-07-10 08:03:55.364313 : Result: Error code 1: The command you entered does not exist
+2023-07-10 08:03:58.339095 : Command: help
+2023-07-10 08:03:58.339095 : Result: The command is executed successfully!
+2023-07-10 08:04:02.354896 : Command: about
+2023-07-10 08:04:02.354896 : Result: The command is executed successfully!
+2023-07-10 08:05:07.826110 : start E:\project_winware\src\main.py
+2023-07-10 08:10:22.770308 : start E:\project_winware\src\main.py
+2023-07-10 08:10:29.521427 : Command: help
+2023-07-10 08:10:29.521427 : Result: The command is executed successfully!
+2023-07-10 08:10:32.730938 : Command: about
+2023-07-10 08:10:32.730938 : Result: The command is executed successfully!
