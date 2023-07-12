@@ -1,17 +1,21 @@
 from datetime import datetime
+from windows.__init__ import Terminal
+import os
+from PIL import Image
 import configparser
 import customtkinter
-from PIL import Image
-import os
+
 
 def run_file(file_path):
     with open(file_path, 'r') as file:
         code = compile(file.read(), os.path.basename(file_path), 'exec')
     exec(code)
 
+
 def write_file(logs_path, content):
     with open(logs_path, 'a') as file:
         file.write(content)
+
 
 if __name__ == '__main__':
     logs_path = 'windows/cache/temps/logs.txt'

@@ -11,26 +11,24 @@ def run_file(file_path):
     exec(code)
 
 class Terminal:
+    COMMANDS = {
+        'help': 'windows/packages/commands/command0.py',
+        'about': 'windows/packages/commands/command1.py',
+        'credits': 'windows/packages/commands/command2.py',
+        'start': 'windows/packages/window.py',
+        'config': 'windows/packages/commands/command3.py',
+        'admin': 'windows/packages/commands/command4.py'
+    }
+
     @staticmethod
     def commands_management(command):
-        commands = ['help', 'about', 'credits', 'start', 'config', 'admin']
-
-        if command not in commands:
+        if command not in Terminal.COMMANDS:
             raise ValueError('Error code 1: The command you entered does not exist.')
-        
-        if command == commands[0]:
-            file_path = 'windows/packages/commands/command0.py'
-        elif command == commands[1]:
-            file_path = 'windows/packages/commands/command1.py'
-        elif command == commands[2]:
-            file_path = 'windows/packages/commands/command2.py'
-        elif command == commands[3]:
-            if os.path.exists('windows/cache/temps/configuration.config'):
-                file_path = 'windows/packages/window.py'
-            else: 
-                raise ValueError('Error code 2: The configuration file was not found.')
-        elif command == commands[4]:
-            file_path = 'windows/packages/commands/command3.py'
+
+        file_path = Terminal.COMMANDS[command]
+        if command == 'start' and not os.path.exists('windows/cache/temps/configuration.config'):
+            raise ValueError('Error code 2: The configuration file was not found.')
+
         run_file(file_path)
 
         return 'The command is executed successfully!'

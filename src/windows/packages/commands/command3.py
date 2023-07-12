@@ -1,6 +1,6 @@
 import configparser
 
-def configuration():
+def configure_application():
     CONFIG_FILE_PATH = 'windows/cache/temps/configuration.config'
 
     first_name = input('\nEnter your first name:\n> ')
@@ -27,4 +27,4 @@ if __name__ == '__main__':
     print('Be careful, the information you enter will be stored in a .config file locally on your PC.')
     print('To learn more, enter the command "about".')
 
-    configuration()
+    configure_application()

@@ -14,11 +14,11 @@ def display_commands():
         },
         {
             'command': 'start',
-            'description': 'Launch the WinWRAE application.'
+            'description': 'Launch the WinWARE application.'
         },
         {
             'command': 'config',
-            'description': 'WinWARE application configuration'
+            'description': 'WinWARE application configuration.'
         }
     ]
 

@@ -1,6 +1,5 @@
-if __name__ == '__main__':
+def display_about():
     print('''
-
 WinWARE - 1.0.0
 
 ABOUT :
@@ -31,7 +30,7 @@ It is important to note that the disclosure of this information is strictly proh
 
 It is essential to note that the use of WinWARE is illegal and does not comply with the laws and regulations in force in most countries.
 We recommend that you do not misuse the software to remain as discreet as possible and not use it for public figures.
-
 ''')
-    
 
+if __name__ == '__main__':
+    display_about()
