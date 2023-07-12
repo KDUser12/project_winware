@@ -1,4 +1,5 @@
 import customtkinter
+import configparser
 from PIL import Image
 
 class Window():
@@ -15,7 +16,13 @@ class Window():
         window.config(background='#1B1B1B')
 
     def app_menu(self, window):
-        frame = customtkinter.CTkFrame(master=window, width=200, height=500, fg_color='#1B1B1B')
+        config = configparser.ConfigParser()
+        config.read('windows/cache/temps/configuration.config')
+        username = config.get('Configuration', 'user_name')
+        first_name = config.get('Configuration', 'first_name')
+        last_name = config.get('Configuration', 'last_name')
+
+        frame = customtkinter.CTkFrame(master=window, width=200, height=500, fg_color='#1B1B1B', border_width=0, border_color='#1B1B1B')
         frame.grid(row=0, column=0)
 
         title = customtkinter.CTkLabel(master=frame, width=200, height=75, text='WinWARE', font=customtkinter.CTkFont(family='Roboto', size=18, weight='bold'), text_color='#FFFFFF')
@@ -66,14 +73,11 @@ class Window():
         name_frame = customtkinter.CTkFrame(master=user_frame, width=118, height=34, fg_color='transparent')
         name_frame.grid(row=0, column=1, padx=12, sticky='e')
 
-        user_name = customtkinter.CTkLabel(master=name_frame, width=118, height=17, text='User Name', font=customtkinter.CTkFont(family='Roboto', size=15, weight='bold'), anchor='w', text_color='#FFFFFF')
+        user_name = customtkinter.CTkLabel(master=name_frame, width=118, height=17, text=username, font=customtkinter.CTkFont(family='Roboto', size=15, weight='bold'), anchor='w', text_color='#FFFFFF')
         user_name.grid(row=0, column=0)
         
-        name_name = customtkinter.CTkLabel(master=name_frame, width=118, height=17, text='None None', font=customtkinter.CTkFont(family='Roboto', size=11), anchor='w', text_color='#CBC0C0')
-        name_name.grid(row=1, column=0)
-
-
-
+        first_last_name = customtkinter.CTkLabel(master=name_frame, width=118, height=17, text=f'{first_name} {last_name}', font=customtkinter.CTkFont(family='Roboto', size=11), anchor='w', text_color='#C0C0C0')
+        first_last_name.grid(row=1, column=0)
 
 if __name__ == '__main__':
     app = customtkinter.CTk()
